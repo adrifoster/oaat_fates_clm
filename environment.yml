@@ -1,0 +1,28 @@
+name: oaat
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.12
+  - cartopy
+  - cftime
+  - dask
+  - dask-core
+  - dask-jobqueue
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - nc-time-axis
+  - netcdf-fortran
+  - netcdf4
+  - notebook
+  - pandas
+  - scipy
+  - seaborn
+  - xarray
+  - xesmf
+  - xlrd
+  - pip:
+    - numpy
+    - -e .

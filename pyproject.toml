@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oaat_library"
+version = "0.1.0"
+description = "Code for conducting analysis and generating figures for the FATES & CLM SP PPE"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["oaat_library*"] 
+exclude = ["notebooks*", "figures*", "configs*"]

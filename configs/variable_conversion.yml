@@ -1,0 +1,207 @@
+ASA:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: 0-1
+  global_units: 0-1
+  cmap: jet
+  diverging_cmap: False
+  long_name: Albedo
+
+GPP:
+  time_conversion_factor: 86400.0
+  area_conversion_factor: 1.0e-6
+  annual_units: kgC m$^{-2}$ yr$^{-1}$
+  global_units: PgC yr$^{-1}$
+  cmap: YlGn
+  diverging_cmap: False
+  long_name: GPP
+
+LAI:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: m$^2$ m$^{-2}$
+  global_units: m$^2$ m$^{-2}$
+  cmap: YlGn
+  diverging_cmap: False 
+  long_name: LAI
+
+EFLX_LH_TOT:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: YlGnBu
+  diverging_cmap: False
+  long_name: Latent Heat Flux
+
+QRUNOFF:
+  time_conversion_factor: 86400.0
+  area_conversion_factor: null
+  annual_units: mm yr$^{-1}$
+  global_units: mm yr$^{-1}$
+  cmap: YlGnBu
+  diverging_cmap: False
+  long_name: Total Liquid Runoff
+
+
+QSOIL:
+  time_conversion_factor: 86400.0
+  area_conversion_factor: null
+  annual_units: mm yr$^{-1}$
+  global_units: mm yr$^{-1}$
+  cmap: YlGnBu
+  diverging_cmap: False
+  long_name: Ground Evaporation
+
+QVEGE:
+  time_conversion_factor: 86400.0
+  area_conversion_factor: null
+  annual_units: mm yr$^{-1}$
+  global_units: mm yr$^{-1}$
+  cmap: YlGnBu
+  diverging_cmap: False
+  long_name: Canopy Evaporation
+  
+QVEGT:
+  time_conversion_factor: 86400.0
+  area_conversion_factor: null
+  annual_units: mm yr$^{-1}$
+  global_units: mm yr$^{-1}$
+  cmap: YlGnBu
+  diverging_cmap: False
+  long_name: Canopy Transpiration
+
+
+FSH:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Sensible Heat Flux
+
+EF:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: 0-1
+  global_units: 0-1
+  cmap: BrBG
+  diverging_cmap: False
+  long_name: Evaporative Fraction
+
+SOILWATER_10CM:
+  time_conversion_factor: null
+  area_conversion_factor: 1.0e-6
+  annual_units: kgH$_2$O m$^{-2}$
+  global_units: PgH$_2$O
+  cmap: Blues
+  diverging_cmap: False
+  long_name: Surface Soil Water
+
+FSR:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Upward Shortwave Radiation
+
+FSA:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Net Shortwave Radiation
+
+FIRE:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Upward Longwave Radiation
+
+RLNS:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Net Longwave Radiation
+
+RN:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Net Radiation
+  
+FSDS:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: W m$^{-2}$
+  global_units: W m$^{-2}$
+  cmap: jet
+  diverging_cmap: False
+  long_name: Downward Shortwave Radiation
+
+TV:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: K
+  global_units: K
+  cmap: jet
+  diverging_cmap: False
+  long_name: Vegetation Temperature
+
+BTRANMN:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: 0-1
+  global_units: 0-1
+  cmap: BrBG
+  diverging_cmap: False
+  long_name: Minimum $\beta_t$
+  
+Temp:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: degrees C
+  global_units: degrees C
+  cmap: jet
+  diverging_cmap: False
+  long_name: 2-m Air Temperature
+
+RH2M:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: "%"
+  global_units: "%"
+  cmap: BrBG
+  diverging_cmap: False
+  long_name: 2-m Relative Humidity
+
+Precip:
+  time_conversion_factor: 3153600.0
+  area_conversion_factor: null
+  annual_units: cm
+  global_units: cm
+  cmap: BrBG
+  diverging_cmap: False
+  long_name: Precipitation
+WUE:
+  time_conversion_factor: null
+  area_conversion_factor: null
+  annual_units: PgC mm H$_2$O$^{-1}$
+  global_units: PgC mm H$_2$O$^{-1}$
+  cmap: BrBG
+  diverging_cmap: False
+  long_name: Water Use Efficiency
