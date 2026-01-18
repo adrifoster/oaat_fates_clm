@@ -1,5 +1,7 @@
 # Contrasting parametric sensitivities in two global vegetation models using parameter perturbation ensembles
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18285656.svg)](https://doi.org/10.5281/zenodo.18285656)
+
 This repository contains the analysis code, notebooks, and local Python library used for the manuscript:
 
 "Contrasting parametric sensitivities in two global vegetation models using parameter perturbation ensembles"
@@ -57,6 +59,7 @@ After activating the environment, you can launch JupyterLab and explore the anal
 
 1. `MainAnalysis.ipynb`: The primary workflow for the results presented in the paper. 
 2. `SparseGridComparison.ipynb`: Comparison of the sparse grid and full grid configurations of CLM and CLM-FATEs as described in the manuscript and in the supporting information.
+
 
 ## Contact
 
