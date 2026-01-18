@@ -60,6 +60,12 @@ After activating the environment, you can launch JupyterLab and explore the anal
 1. `MainAnalysis.ipynb`: The primary workflow for the results presented in the paper. 
 2. `SparseGridComparison.ipynb`: Comparison of the sparse grid and full grid configurations of CLM and CLM-FATEs as described in the manuscript and in the supporting information.
 
+## Citation
+
+If you use any of these scripts, code, or notebooks, please cite this repository:
+
+Adrianna Foster. (2026). adrifoster/oaat_fates_clm: Manuscript Submission - JAMES 2026 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18285656
+
 
 ## Contact
 
