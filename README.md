@@ -1,6 +1,6 @@
 # Contrasting parametric sensitivities in two global vegetation models using parameter perturbation ensembles
 
-[[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18285656.svg)](https://doi.org/10.5281/zenodo.18285656)](https://doi.org/10.5281/zenodo.18285656)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18285655.svg)](https://doi.org/10.5281/zenodo.18285655)
 
 This repository contains the analysis code, notebooks, and local Python library used for the manuscript:
 
